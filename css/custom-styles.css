@@ -1,6 +1,6 @@
 * {
     font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #ffffff;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -22,9 +22,117 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 }
+.block-content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.left-column {
+    display: block;
+    width: 300px;
+    float: left;
+    padding: 0 20px 0 50px;
+    border: 1px solid black;
+}
+
+.right-column {
+    display: block;
+    width: 960px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+}
+
+button, button:hover, button:active {
+    outline: none;
+    border: none;
+}
+input[type="submit"], input[type="submit"]:hover, input[type="submit"]:active {
+    outline: none;
+    border: none;
+}
+a, a:hover, a:active {
+    outline: none;
+    border: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.img-wrap {
+    position: relative;
+}
 
 ul li {
     list-style: none;
     display: inline-block;
 }
 
+/* header */
+.header-top {
+    background: rgba(0, 0, 0, 0.2);
+}
+.logo-link {
+    display: block;
+    width: 200px;
+    height: 38px;
+    margin-top: 25px;
+}
+.logo-link-mobile {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.logo-link-mobile:hover, .header-top ul li a:hover {
+    text-decoration: underline;
+}
+.header-top h2 {
+    font-size: 18px;
+}
+.header-top .right-column {
+    padding-top: 20px;
+}
+.header-top ul li {
+    height: 24px;
+    line-height: 24px;
+    vertical-align: top;
+}
+.header-top ul li a {
+    text-decoration: none;
+}
+.header-top ul li:after {
+    content: '';
+    display: inline-block;
+    height: 24px;
+    width: 1px;
+    background: #ffffff;
+    vertical-align: top;
+    margin: 0 5px 0 10px;
+}
+.header-top ul li:last-child:after {
+    display: none;
+}
+.header-search {
+    float: left;
+}
+.header-image {
+    float: right;
+    width: 300px;
+    height: 250px;
+    background: url('../images/background.jpg') no-repeat center;
+    background-size: cover;
+}
+.header-image img {
+    width: 200px;
+    height: 200px;
+    right: 0;
+}
+/* end of header */
