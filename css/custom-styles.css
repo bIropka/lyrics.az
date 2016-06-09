@@ -59,13 +59,13 @@ a, a:hover, a:active {
 
 img {
     display: block;
-    width: 100%;
+    /*width: 100%;
     height: auto;
     max-height: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    bottom: 0;
+    bottom: 0;*/
     margin: auto;
 }
 .img-wrap {
@@ -204,6 +204,10 @@ ul li {
 .header-image img {
     width: 80%;
     height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
     right: 0;
 }
 .alphabet-search {
@@ -366,6 +370,16 @@ h3 a:hover {
     height: 190px;
     margin-left: -5px;
     margin-bottom: 10px;
+}
+.product-image img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 .main-content p {
     margin-bottom: 10px;
