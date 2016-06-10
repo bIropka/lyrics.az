@@ -59,13 +59,6 @@ a, a:hover, a:active {
 
 img {
     display: block;
-    /*width: 100%;
-    height: auto;
-    max-height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;*/
     margin: auto;
 }
 .img-wrap {
@@ -409,6 +402,10 @@ h3 a:hover {
     display: none;
 }
 /*end of footer */
+
+/* author-page */
+
+/* end of author-page */
 
 /* media queries */
 @media (max-width: 1280px) {
