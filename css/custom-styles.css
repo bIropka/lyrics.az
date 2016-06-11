@@ -404,7 +404,70 @@ h3 a:hover {
 /*end of footer */
 
 /* author-page */
-
+.author-page a:hover {
+    text-decoration: none;
+}
+.author-page h1 {
+    font-size: 16px;
+}
+.breadcrumbs li:first-child:before {
+    content: '\2605';
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 5px;
+}
+.author-page h1:before {
+    display: none;
+}
+.breadcrumbs li:after {
+    content: '/';
+    display: inline-block;
+    color: #714e81;
+    margin: 0 5px 0 5px;
+}
+.breadcrumbs li:last-child:after {
+    display: none;
+}
+.author-albums, .author-lyrics, .author-photo {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.author-albums span {
+    color: #714e81;
+    margin-left: 5px;
+}
+.author-lyrics {
+    margin: 20px 4% 0
+}
+.author-albums li, .author-lyrics li, .author-photo li {
+    display: block;
+    margin-bottom: 7px;
+}
+.author-page h2:after {
+    content: '';
+    display: block;
+    width: 100%;
+    border: 1px solid #714e81;
+    margin: 10px 0 20px;
+}
+.author-page .show-all {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.author-page p {
+    padding-bottom: 10px;
+}
+.author-biography, .related-links {
+    margin-top: 30px;
+}
+.related-links li {
+    display: block;
+    margin-top: 10px;
+}
 /* end of author-page */
 
 /* media queries */
