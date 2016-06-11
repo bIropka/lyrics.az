@@ -468,6 +468,9 @@ h3 a:hover {
     display: block;
     margin-top: 10px;
 }
+.author-photo img{
+    border: 2px solid #714e81;
+}
 /* end of author-page */
 
 /* media queries */
