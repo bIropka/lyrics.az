@@ -404,7 +404,7 @@ h3 a:hover {
 /*end of footer */
 
 /* author-page */
-.author-page a:hover {
+.author-page a:hover, .lyrics-page a:hover {
     text-decoration: none;
 }
 .author-page h1 {
@@ -472,6 +472,38 @@ h3 a:hover {
     border: 2px solid #714e81;
 }
 /* end of author-page */
+
+/* lyrics page */
+.breadcrumbs a, .breadcrumbs p {
+    font-weight: 700;
+}
+.breadcrumbs span {
+    font-style: italic;
+}
+.lyrics-page h2 {
+    font-size: 18px;
+}
+.lyrics-page .title {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.lyrics-page .title a {
+    font-weight: 100;
+    color: #c0c0c0;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.lyrics-page .title a:hover {
+    text-decoration: underline;
+}
+.lyric-text {
+    padding-bottom: 5px;
+}
+.invisible-link {
+    font-size: 12px;
+    color: #35084b;
+}
+/* end of lyrics page */
 
 /* media queries */
 @media (max-width: 1280px) {
