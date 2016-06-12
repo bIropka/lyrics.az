@@ -80,18 +80,27 @@ ul li {
     background: none;
 }
 .header-top .left-column {
-    padding-left: 3%;
+    padding-left: 1%;
 }
 .logo-link {
-    display: block;
-    width: 85%;
-    height: 38px;
+    display: inline-block;
+    width: 60%;
+    height: 30px;
     margin-top: 25px;
+    float: left;
+}
+.logo-link img {
+    width: 90%;
+    margin: 0;
 }
 .logo-link-mobile {
     display: inline-block;
     margin-bottom: 10px;
     text-decoration: none;
+    float: left;
+}
+.script-wrap {
+    margin-top: 25px;
 }
 .logo-link-mobile:hover, .header-top ul li a:hover, .header-links a:hover {
     text-decoration: underline;
@@ -536,6 +545,9 @@ h3 a:hover {
     * {
         font-size: 14px;
     }
+    .logo-link {
+        width: 55%;
+    }
     .header-links a {
         font-size: 14px;
     }
@@ -552,6 +564,9 @@ h3 a:hover {
     }
     .header-search {
         padding: 3.5% 1.5% 0;
+    }
+    .logo-link {
+        width: 49%;
     }
 }
 
